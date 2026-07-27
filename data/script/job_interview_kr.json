@@ -1,0 +1,109 @@
+{
+  "title": "최종 면접",
+  "note": "Final job interview at a promising startup; the player competes with a rival candidate before three interviewers.",
+  "intro": "당신은 촉망받는 스타트업의 최종 면접장에 들어섭니다. 옆자리에는 자신만만한 경쟁 지원자 한 명이 앉아 있고, 세 명의 면접관이 당신을 지켜보고 있습니다. 이 자리에서 당신의 근성과 실력, 그리고 태도가 시험대에 오릅니다.",
+  "player": { "name": "Candidate Seo", "display": "서지원 (나, 지원자)" },
+  "actors": {
+    "CEO Kang": {
+      "name": "CEO Kang",
+      "display": "강 대표",
+      "description": "Kang is the charismatic, vision-driven founder of the startup, in his early forties. He speaks in grand strokes about the future and cares more about grit, attitude, and hunger than a polished resume. He is impulsive and improvisational, often throwing sharp pressure questions to see how a candidate holds up under stress. Secretly, the company is burning cash fast and this hire could make or break the next product launch, so he is desperate to find someone truly committed. His tone is warm and bold but can turn abruptly demanding.",
+      "relations": {
+        "CEO Kang": "The founder who built this company from nothing and feels its survival rests on his shoulders.",
+        "CTO Lim": "His long-time co-founder and technical anchor; he trusts Lim's judgment but is frustrated by Lim's endless skepticism.",
+        "Manager Jung": "His trusted HR lead who keeps the room civil; he leans on Jung to soften his rough edges.",
+        "Rival Choi": "A confident applicant whose ambition he admires but quietly distrusts as too self-serving.",
+        "Candidate Seo": "The applicant he is scrutinizing, hoping to uncover real grit beneath the surface."
+      }
+    },
+    "CTO Lim": {
+      "name": "CTO Lim",
+      "display": "임 이사",
+      "description": "Lim is the cold, exacting chief technology officer, a woman in her late thirties who says little but cuts deep. She relentlessly probes a candidate's practical ability, never satisfied with buzzwords and always demanding concrete detail. She is deeply skeptical of hype and has seen too many hires flame out, so she guards the engineering team like a fortress. Her secret worry is that the last hire failed under her watch and she cannot afford another mistake. Her manner is terse, sharp, and unsettlingly quiet.",
+      "relations": {
+        "CTO Lim": "The technical gatekeeper who trusts only what can be proven, not promised.",
+        "CEO Kang": "Her co-founder whose bold vision she respects but whose impulsiveness she constantly reins in.",
+        "Manager Jung": "The HR lead she finds too soft, though she grudgingly values the calm Jung brings.",
+        "Rival Choi": "A slick applicant whose confident claims she itches to test and dismantle.",
+        "Candidate Seo": "The applicant whose technical depth she intends to interrogate without mercy."
+      }
+    },
+    "Manager Jung": {
+      "name": "Manager Jung",
+      "display": "정 팀장",
+      "description": "Jung is the friendly, approachable HR team lead in her mid-thirties who works hard to put candidates at ease. She smooths tension in the room, mediates when Kang and Lim push too hard, and steers the conversation with gentle tact. She genuinely wants candidates to show their best selves, but she also quietly reads their character in unguarded moments. Her secret is that she already has a personal favorite and must stay neutral. Her tone is warm, encouraging, and diplomatic.",
+      "relations": {
+        "Manager Jung": "The people person who believes the right attitude matters as much as raw skill.",
+        "CEO Kang": "The founder whose intensity she buffers, translating his pressure into fairer questions.",
+        "CTO Lim": "The CTO whose sharpness she often softens for the candidates' sake.",
+        "Rival Choi": "A polished applicant whose confidence she notes but watches for arrogance.",
+        "Candidate Seo": "The applicant she tries to make comfortable so their true self can emerge."
+      }
+    },
+    "Rival Choi": {
+      "name": "Rival Choi",
+      "display": "최 지원자",
+      "description": "Choi is the self-assured competing applicant in his late twenties, seated right beside the player. He is quick to sell himself, dropping impressive-sounding accomplishments and subtly one-upping the player at every turn. He masks a fear of failure with a veneer of ease, and beneath the charm he is coldly determined to win the single open spot. He never misses a chance to steer attention to himself, sometimes talking over others. His tone is smooth, confident, and quietly competitive.",
+      "relations": {
+        "Rival Choi": "The ambitious rival who is certain the job is his to lose.",
+        "CEO Kang": "The founder he eagerly tries to impress with big talk and bold claims.",
+        "CTO Lim": "The skeptical CTO he is wary of, sensing she can see through his polish.",
+        "Manager Jung": "The friendly HR lead he charms to keep the room on his side.",
+        "Candidate Seo": "His direct competitor, whom he undercuts with subtle jabs and self-promotion."
+      }
+    }
+  },
+  "acts": [
+    [
+      {
+        "title": "Act 1 - 면접장",
+        "note": "Interviewers greet the two applicants; introductions and icebreaking, with the rival subtly showing competitiveness.",
+        "place": "면접장",
+        "background": "밝은 회의실 한쪽 벽에는 스타트업의 로고가 걸려 있습니다. 긴 테이블 건너편에 세 면접관이 앉아 있고, 당신과 최 지원자가 나란히 마주 앉아 있습니다.",
+        "actors": [ "CEO Kang", "CTO Lim", "Manager Jung", "Rival Choi" ],
+        "goals": [
+          "Manager Jung warmly welcomed both applicants and eased the tension in the room.",
+          "CEO Kang introduced the company's vision and invited each candidate to introduce themselves.",
+          "Rival Choi delivered a polished self-introduction and subtly hinted at his edge over the player."
+        ],
+        "player_in": "당신이 자리에 앉자 면접관들의 시선이 당신에게 향합니다.",
+        "player_out": "정 팀장이 짧은 휴식을 알리며 다음 순서를 준비하겠다고 말합니다.",
+        "next_act": "Act 2 - 면접장"
+      }
+    ],
+    [
+      {
+        "title": "Act 2 - 면접장",
+        "note": "Lim's technical grilling and Kang's pressure questions; the two candidates' answers contrast sharply.",
+        "place": "면접장",
+        "background": "테이블 위에는 지원서와 노트북이 놓여 있고, 공기는 조금 더 팽팽해졌습니다. 임 이사가 몸을 앞으로 기울이며 본격적인 검증을 시작하려 합니다.",
+        "actors": [ "CEO Kang", "CTO Lim", "Manager Jung", "Rival Choi" ],
+        "goals": [
+          "CTO Lim relentlessly probed the player's practical skills and demanded concrete detail.",
+          "CEO Kang threw a sharp pressure question to test the player's grit under stress.",
+          "Rival Choi seized the moment to contrast his own answers and undercut the player, forcing the tension higher."
+        ],
+        "player_in": "임 이사가 당신을 똑바로 응시하며 첫 질문을 던집니다.",
+        "player_out": "강 대표가 마지막 순서를 위해 잠시 숨을 고르자고 말합니다.",
+        "next_act": "Act 3 - 면접장"
+      }
+    ],
+    [
+      {
+        "title": "Act 3 - 면접장",
+        "note": "Candidates make final appeals and ask reverse questions; the interviewers wrap up.",
+        "place": "면접장",
+        "background": "면접이 막바지에 이르렀습니다. 면접관들의 표정에서 긴 하루의 피로와 결정을 앞둔 무게가 느껴집니다. 이제 두 지원자에게 마지막 발언 기회가 주어집니다.",
+        "actors": [ "CEO Kang", "CTO Lim", "Manager Jung", "Rival Choi" ],
+        "goals": [
+          "Manager Jung invited each candidate to make a final appeal and ask a reverse question about the company.",
+          "Rival Choi made a bold last pitch and pressed his advantage one final time against the player.",
+          "CEO Kang weighed the two candidates aloud and brought the high-stakes interview to a close."
+        ],
+        "player_in": "정 팀장이 미소 지으며 당신에게 마지막으로 하고 싶은 말이 있는지 묻습니다.",
+        "player_out": "면접관들이 자리에서 일어나 결과를 곧 알리겠다며 면접을 마칩니다.",
+        "next_act": ""
+      }
+    ]
+  ]
+}

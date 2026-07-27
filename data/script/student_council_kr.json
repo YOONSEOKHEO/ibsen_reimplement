@@ -1,0 +1,123 @@
+{
+  "title": "축제 예산 긴급회의",
+  "note": "University student council budget conflict drama",
+  "intro": "당신은 이번 학기에 막 들어온 신입 부원 고승현입니다. 대학 축제 예산의 배분과 집행 투명성을 두고 열린 긴급 학생회의를 지켜보게 되었습니다. 언제든 발언하거나 각 인물에게 궁금한 점을 물어볼 수 있습니다.",
+  "player": {
+    "name": "Rookie Ko",
+    "display": "고승현 (나, 신입 부원)"
+  },
+  "actors": {
+    "President Nam": {
+      "name": "President Nam",
+      "description": "President Nam is the charismatic student council president in the final year, obsessed with delivering a spectacular festival headlined by a big-name invited performer. Nam speaks with confident, sweeping rhetoric and rallies the room with talk of school pride and 'once in a lifetime' memories. Beneath the confidence lies a fragile need for a legacy achievement before graduation, so any challenge to the plan is taken personally and met with defensiveness. Nam quietly fears that the invited-performer contract, negotiated in a rush, has commitments that cannot be undone. In private, Nam knows some spending shortcuts were taken to secure the deal, and dreads that detail surfacing.",
+      "relations": {
+        "President Nam": "President Nam, the student council president, pushing to hold the festival with a big invited performer.",
+        "VP Song": "VP Song, the vice president and Nam's supposed right hand, whose caution Nam finds increasingly irritating.",
+        "Treasurer Yoo": "Treasurer Yoo, the council treasurer, whose relentless questions about the books make Nam anxious.",
+        "ClubRep Bae": "ClubRep Bae, the club-union representative, whose complaints Nam sees as a threat to the festival plan.",
+        "Rookie Ko": "Rookie Ko, a newly joined council member observing the meeting."
+      }
+    },
+    "VP Song": {
+      "name": "VP Song",
+      "description": "VP Song is the cautious, level-headed vice president who worries about budget overruns and downside risk, and argues for slowing down and phasing the plan. Song positions themselves as a moderate mediator, trying to keep the meeting from exploding, but harbors a subtle, unspoken tension with President Nam over being sidelined in the invited-performer decision. Song chooses words carefully, often reframing conflict into practical questions about numbers and timelines. Privately, Song suspects the contract was rushed and would rather scale back than gamble the whole budget, but hesitates to openly break with Nam.",
+      "relations": {
+        "President Nam": "President Nam, the president, whose ambition Song respects but whose recklessness Song quietly resents.",
+        "VP Song": "VP Song, the vice president, advocating caution and phased spending.",
+        "Treasurer Yoo": "Treasurer Yoo, the treasurer, whose demand for transparency Song privately agrees with.",
+        "ClubRep Bae": "ClubRep Bae, the club-union representative, whose grievance Song considers partly legitimate.",
+        "Rookie Ko": "Rookie Ko, a newly joined council member observing the meeting."
+      }
+    },
+    "Treasurer Yoo": {
+      "name": "Treasurer Yoo",
+      "description": "Treasurer Yoo is the principled council treasurer who refuses to back down on accounting transparency. Yoo has found line items in the festival budget with vague or missing documentation, especially around the invited-performer deal, and intends to expose them. Yoo speaks plainly and insistently, citing figures and receipts, and is unmoved by appeals to school spirit or urgency. Yoo is not out for personal gain but genuinely believes the council's credibility depends on clean books, and is prepared to be unpopular to make the point.",
+      "relations": {
+        "President Nam": "President Nam, the president, whose rushed spending Yoo distrusts and intends to question openly.",
+        "VP Song": "VP Song, the vice president, whom Yoo sees as a potential ally for caution.",
+        "Treasurer Yoo": "Treasurer Yoo, the treasurer, demanding full disclosure of the festival accounts.",
+        "ClubRep Bae": "ClubRep Bae, the club-union representative, whose anger Yoo understands but whose outbursts complicate the audit.",
+        "Rookie Ko": "Rookie Ko, a newly joined council member observing the meeting."
+      }
+    },
+    "ClubRep Bae": {
+      "name": "ClubRep Bae",
+      "description": "ClubRep Bae is the club-union representative, furious that the budget pours into council-run headline events while the many student clubs are left with scraps. Bae is passionate and blunt, quick to raise their voice, and speaks for dozens of clubs who feel ignored and disrespected. Bae came into the meeting ready to fight, armed with examples of clubs that were denied funding. Underneath the anger is a real fear that if the council spends everything on the festival, the clubs will collapse for the rest of the year.",
+      "relations": {
+        "President Nam": "President Nam, the president, whom Bae blames for favoring council events over the clubs.",
+        "VP Song": "VP Song, the vice president, whom Bae hopes might rein in the spending.",
+        "Treasurer Yoo": "Treasurer Yoo, the treasurer, whose transparency push Bae eagerly supports as ammunition.",
+        "ClubRep Bae": "ClubRep Bae, the club-union representative, demanding a fair share of the budget for the clubs.",
+        "Rookie Ko": "Rookie Ko, a newly joined council member observing the meeting."
+      }
+    }
+  },
+  "acts": [
+    [
+      {
+        "title": "Act 1 - 학생회실",
+        "note": "Emergency meeting opens and positions are laid out",
+        "place": "학생회실",
+        "background": "책상이 ㄷ자로 붙은 좁은 학생회실. 축제를 앞두고 예산 배분과 집행 투명성 문제로 긴급회의가 소집되었고, 네 사람이 자리에 앉아 회의가 시작되기를 기다립니다. 당신은 신입 부원으로 회의를 참관하며 함께 자리에 있습니다.",
+        "actors": [
+          "President Nam",
+          "VP Song",
+          "Treasurer Yoo",
+          "ClubRep Bae"
+        ],
+        "goals": [
+          "President Nam opened the emergency meeting and enthusiastically presented the festival budget plan built around a big invited performer.",
+          "VP Song raised cautious concerns about the budget's size and the risk of overrun, urging a slower, phased approach.",
+          "Treasurer Yoo and ClubRep Bae each signaled their objections, hinting at transparency problems and neglect of the clubs, so that every camp's stance became clear."
+        ],
+        "player_in": "신입 부원 고승현이 회의실 한쪽에 자리를 잡고 회의를 지켜보기 시작한다.",
+        "player_out": "신입 부원 고승현이 잠시 자리를 비운다.",
+        "next_act": "Act 2 - 학생회실"
+      }
+    ],
+    [
+      {
+        "title": "Act 2 - 학생회실",
+        "note": "Yoo exposes opaque spending and the conflict escalates",
+        "place": "학생회실",
+        "background": "회의가 격해지는 가운데, 유 총무가 두꺼운 회계 자료를 책상 위에 펼쳐 놓습니다. 같은 학생회실, 공기는 한층 무거워졌습니다.",
+        "actors": [
+          "President Nam",
+          "VP Song",
+          "Treasurer Yoo",
+          "ClubRep Bae"
+        ],
+        "goals": [
+          "Treasurer Yoo revealed specific line items with vague or missing documentation in the invited-performer deal, directly confronting President Nam.",
+          "President Nam grew defensive and tried to justify the spending as necessary shortcuts for the festival, deflecting the accusation.",
+          "ClubRep Bae seized on the disclosure to angrily demand why clubs were starved while council events overspent, sharpening the confrontation into an open clash."
+        ],
+        "player_in": "신입 부원 고승현이 다시 회의실로 들어와 격해진 논쟁을 지켜본다.",
+        "player_out": "신입 부원 고승현이 잠시 자리를 비운다.",
+        "next_act": "Act 3 - 학생회실"
+      }
+    ],
+    [
+      {
+        "title": "Act 3 - 학생회실",
+        "note": "The vote and an attempt at resolution",
+        "place": "학생회실",
+        "background": "논쟁이 정점에 이르고, 이제 표결로 결론을 내야 할 순간입니다. 남 회장이 사태를 수습하려 합니다. 같은 학생회실, 모두의 시선이 회장에게 쏠립니다.",
+        "actors": [
+          "President Nam",
+          "VP Song",
+          "Treasurer Yoo",
+          "ClubRep Bae"
+        ],
+        "goals": [
+          "President Nam attempted to calm the room and proposed a compromise to salvage the festival while addressing the objections.",
+          "VP Song, Treasurer Yoo, and ClubRep Bae pressed their conditions for support, forcing concrete concessions on transparency and club funding before any vote.",
+          "The council moved to a vote that ended either in a fragile compromise or an open rupture, leaving the festival's fate hanging."
+        ],
+        "player_in": "신입 부원 고승현이 표결을 지켜보기 위해 회의실로 들어온다.",
+        "player_out": "신입 부원 고승현이 회의실을 떠난다.",
+        "next_act": ""
+      }
+    ]
+  ]
+}

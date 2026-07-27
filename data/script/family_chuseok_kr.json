@@ -1,0 +1,109 @@
+{
+  "title": "추석, 큰집 거실",
+  "note": "Korean family drama about inheritance and ancestral rites tension after Chuseok.",
+  "intro": "추석 차례를 막 마친 시골 큰집 거실. 당신은 둘째 누나와 결혼해 이 집에 처음 온 막내 사위입니다. 어색하게 자리를 지키던 당신 앞에서, 노모의 땅과 재산 상속, 그리고 제사를 둘러싼 삼남매의 오랜 갈등이 조금씩 수면 위로 떠오릅니다.",
+  "player": { "name": "Son-in-law Jung", "display": "정민석 (나, 막내 사위)" },
+  "actors": {
+    "Eldest Kim": {
+      "name": "Eldest Kim",
+      "display": "큰형(장남)",
+      "description": "The eldest son in his mid-fifties, patriarchal and used to being obeyed. He presides over the ancestral rites and speaks of family duty and tradition, positioning himself as the rightful head of the household who deserves the largest share of the inheritance. In truth he left the actual care of their aging mother to his sister for years, and he papers over this guilt with formal authority and a booming, lecturing tone. He grows defensive and blustering when challenged, and dislikes losing face in front of others.",
+      "relations": {
+        "Eldest Kim": "The eldest son who feels entitled to lead the family and control the inheritance.",
+        "Second Kim": "His younger sister; he takes her caregiving for granted and resents her quiet reproaches.",
+        "Youngest Kim": "His youngest brother, whom he half-scolds and half-pities but does not trust with money.",
+        "Mother Kim": "Their aging mother, whose land and estate he assumes he will manage as the eldest.",
+        "Son-in-law Jung": "The newest son-in-law, an outsider he barely acknowledges and expects to stay silent."
+      }
+    },
+    "Second Kim": {
+      "name": "Second Kim",
+      "display": "둘째 누나",
+      "description": "The second daughter in her late forties, warm but worn down. For years she has been the one who actually nursed and cared for their mother, sacrificing her own time and money, yet she has never been thanked or recognized. She suppresses her hurt out of a sense of duty, speaking softly and busying herself with chores, but the resentment simmers close to the surface and finally erupts. When she breaks, she is raw and tearful, listing everything she gave up.",
+      "relations": {
+        "Second Kim": "The overlooked caregiver daughter, aching to be acknowledged for years of sacrifice.",
+        "Eldest Kim": "Her elder brother, whose pride and neglect she has swallowed in silence until now.",
+        "Youngest Kim": "Her younger brother, whom she pities but is exhausted by his excuses and requests.",
+        "Mother Kim": "Their mother, whom she has personally cared for and loves fiercely, with tangled hurt.",
+        "Son-in-law Jung": "Her husband, whose quiet presence steadies her and whom she leans on emotionally."
+      }
+    },
+    "Youngest Kim": {
+      "name": "Youngest Kim",
+      "display": "막내",
+      "description": "The youngest son in his early forties, charming but evasive. His business recently failed and he urgently needs money, so he subtly angles for his share of the inheritance while pretending his interest is about fairness. He deflects hard questions with excuses, jokes, and vague promises, avoiding eye contact when pressed about his debts. He resents being treated as the family's irresponsible child, and his desperation makes him alternately ingratiating and prickly.",
+      "relations": {
+        "Youngest Kim": "The struggling youngest son quietly maneuvering for his inheritance share to cover debts.",
+        "Eldest Kim": "His domineering eldest brother, whom he resents but does not dare to openly defy.",
+        "Second Kim": "His caregiving sister, whose sacrifices he acknowledges only when it suits him.",
+        "Mother Kim": "Their mother, whose affection he leans on and whose estate he privately counts on.",
+        "Son-in-law Jung": "The new brother-in-law, whom he treats with wary, over-friendly politeness."
+      }
+    },
+    "Mother Kim": {
+      "name": "Mother Kim",
+      "display": "어머니(노모)",
+      "description": "The aging widowed mother in her late seventies, gentle and anxious. She watches her children's faces and cannot bring herself to take any side, forever trying to smooth things over and keep the peace. Inwardly she is full of guilt toward the daughter who cared for her and quiet hurt at the sons who did not, but she hides this behind soft deflections and offers of food. Her one sudden, plain-spoken word near the end silences the whole room.",
+      "relations": {
+        "Mother Kim": "The frail mother caught between her children, torn by guilt, hurt, and love.",
+        "Eldest Kim": "Her eldest son, whose authority she defers to out of habit though he disappointed her.",
+        "Second Kim": "Her daughter, whom she leaned on most and feels the deepest, unspoken gratitude toward.",
+        "Youngest Kim": "Her youngest, whom she still coddles and worries over despite his failures.",
+        "Son-in-law Jung": "Her new son-in-law, whom she treats kindly and gratefully as a welcome guest."
+      }
+    }
+  },
+  "acts": [
+    [
+      {
+        "title": "Act 1 - 큰집 거실",
+        "note": "After the rites, forced pleasantries mask the first careful mentions of inheritance and duty.",
+        "place": "큰집 거실",
+        "background": "차례상을 물린 큰집 거실. 향냄새가 아직 남아 있고 가족들이 둘러앉아 덕담을 나누지만, 웃음 아래로 미묘한 긴장이 흐릅니다. 당신은 둘째 누나 곁에 앉아 어색하게 분위기를 살핍니다.",
+        "actors": [ "Eldest Kim", "Second Kim", "Youngest Kim", "Mother Kim" ],
+        "goals": [
+          "The family exchanged holiday pleasantries and the eldest son praised how well the rites were performed.",
+          "The eldest son began speaking of family tradition and hinted at how the estate should be managed.",
+          "A first careful mention of the mother's land raised the temperature in the room."
+        ],
+        "player_in": "당신이 둘째 누나 옆자리에 앉으며 가족들에게 어색하게 인사를 건넵니다.",
+        "player_out": "당신이 자리에서 조용히 일어나 물러납니다.",
+        "next_act": "Act 2 - 큰집 거실"
+      }
+    ],
+    [
+      {
+        "title": "Act 2 - 큰집 거실",
+        "note": "Resentment over caregiving and the division of the estate erupts into open confrontation.",
+        "place": "큰집 거실",
+        "background": "덕담은 사라지고 목소리가 높아진 거실. 부양과 재산 분배를 둘러싼 오랜 서운함이 터져 나오며 삼남매가 정면으로 부딪칩니다. 당신은 그 사이에서 어쩔 줄 몰라 하며 지켜봅니다.",
+        "actors": [ "Eldest Kim", "Second Kim", "Youngest Kim", "Mother Kim" ],
+        "goals": [
+          "The second daughter finally voiced how alone she had been in caring for their mother.",
+          "The youngest son pushed for his share while dodging questions about his failed business.",
+          "The eldest son and his siblings clashed openly over who deserved the land, and voices rose to shouting."
+        ],
+        "player_in": "당신이 다시 거실로 들어서다 격해진 분위기에 걸음을 멈춥니다.",
+        "player_out": "당신이 무거운 공기 속에서 슬며시 자리를 뜹니다.",
+        "next_act": "Act 3 - 큰집 거실"
+      }
+    ],
+    [
+      {
+        "title": "Act 3 - 큰집 거실",
+        "note": "The mother's single quiet remark stills the room and an imperfect reconciliation begins.",
+        "place": "큰집 거실",
+        "background": "고성이 잦아든 거실에 무거운 침묵이 내려앉습니다. 지켜보던 어머니가 낮게 던진 한마디에 모두가 말을 잃고, 불완전하게나마 서로에게 화해의 손을 내밉니다.",
+        "actors": [ "Eldest Kim", "Second Kim", "Youngest Kim", "Mother Kim" ],
+        "goals": [
+          "The mother spoke a single plain sentence about her guilt and gratitude that silenced everyone.",
+          "The siblings, shaken, began to admit their faults and half-apologize to one another.",
+          "The family reached a fragile, incomplete peace, leaving the deepest wounds unhealed but acknowledged."
+        ],
+        "player_in": "당신이 조심스럽게 거실로 돌아와 가족들 곁에 다시 앉습니다.",
+        "player_out": "당신이 가족들과 눈인사를 나누고 자리에서 일어납니다.",
+        "next_act": ""
+      }
+    ]
+  ]
+}

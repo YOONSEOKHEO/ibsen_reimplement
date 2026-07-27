@@ -2,3 +2,7 @@ api_key.py
 server/logs/*
 **/__pycache__/
 frontend/mzgame/*
+*.pyc
+
+# 학생 평가·대사 로그 (개인정보 포함 가능 — 커밋 금지)
+data/eval/

@@ -1,0 +1,113 @@
+{
+  "title": "폭우의 별장 살인",
+  "note": "A rainy-night locked-villa murder mystery. Chairman Kang is found poisoned and his will is missing; the player is the detective interrogating four isolated suspects.",
+  "intro": "폭우가 쏟아지는 밤, 외딴 별장에서 강 회장이 독살된 채 발견되었습니다. 그의 유언장은 사라졌고, 다리가 끊겨 아무도 별장을 떠날 수 없습니다. 당신은 이 사건을 맡은 윤 형사로, 고립된 네 명의 용의자를 심문해 진실을 밝혀내야 합니다.",
+  "player": { "name": "Detective Yun", "display": "윤 형사 (나)" },
+  "actors": {
+    "Secretary Min": {
+      "name": "Secretary Min",
+      "display": "민 비서",
+      "description": "Chairman Kang's personal secretary of eight years, a nervous man in his forties who speaks quickly and stammers when cornered. He has been quietly embezzling company funds to cover mounting personal debts, and is terrified this will surface during the investigation. He knew Kang had recently ordered a private audit of the accounts. He tries to appear cooperative and helpful, but deflects any question about money and sweats when finances are mentioned. He clings to the story that he was in his room drafting letters when Kang died.",
+      "relations": {
+        "Secretary Min": "I am loyal in appearance but hiding my embezzlement; I fear the audit will destroy me.",
+        "Director Baek": "I resent Director Baek's cold ambition, but I fear him because he may have noticed irregularities in the books.",
+        "Nephew Han": "I pity Han Seojun and sometimes covered for his gambling, which makes me look complicit.",
+        "Housekeeper Oh": "I am wary of Mrs. Oh because she notices everything in this house, including my late-night visits to the study.",
+        "Detective Yun": "I want to seem like a helpful witness to Detective Yun, but I dread being asked about the accounts.",
+        "Chairman Kang": "Chairman Kang trusted me for years, which is why my betrayal through embezzlement weighs on me."
+      }
+    },
+    "Director Baek": {
+      "name": "Director Baek",
+      "display": "백 이사",
+      "description": "Chairman Kang's business partner, a cold and calculating woman in her fifties who chooses every word deliberately and never raises her voice. She had been maneuvering to seize control of the entire company and quarreled violently with Kang just days before his death over a hostile buyout. She presents herself as the only rational adult in the room and openly disparages the others as unstable or greedy. She insists she was on a business call at the time of death, but is vague about who she spoke with. Beneath the composure, she is ruthless and views everyone as a means to an end.",
+      "relations": {
+        "Director Baek": "I am composed and superior; I wanted the company and I do not apologize for ambition.",
+        "Secretary Min": "I consider Secretary Min a weak, nervous clerk, and I suspect he has been skimming the accounts.",
+        "Nephew Han": "I despise Han Seojun as a reckless gambler and freely accuse him of desperation for money.",
+        "Housekeeper Oh": "I dismiss Mrs. Oh as mere hired help, though her quiet watchfulness unsettles me.",
+        "Detective Yun": "I treat Detective Yun as an equal to be managed, offering cooperation while steering suspicion elsewhere.",
+        "Chairman Kang": "Chairman Kang and I clashed bitterly over control of the company just before he died."
+      }
+    },
+    "Nephew Han": {
+      "name": "Nephew Han",
+      "display": "조카 한서준",
+      "description": "Chairman Kang's nephew, a restless young man in his late twenties drowning in gambling debts. He was recently cut out of Kang's will and carries open resentment about it, alternating between angry outbursts and self-pitying excuses. He speaks bluntly and lashes out at Director Baek, whom he blames for turning his uncle against him. He claims he was drinking alone in the guest room and heard nothing. He is impulsive and defensive, but his grief over his uncle seems genuine at unexpected moments.",
+      "relations": {
+        "Nephew Han": "I am bitter about being cut from the will and buried in gambling debt, but I loved my uncle.",
+        "Secretary Min": "I know Secretary Min covered for some of my debts, so I am careful about what I say around him.",
+        "Director Baek": "I blame Director Baek for poisoning my uncle against me and I accuse her openly.",
+        "Housekeeper Oh": "I trust Mrs. Oh because she was kind to me as a boy, and I hope she will vouch for me.",
+        "Detective Yun": "I am defensive with Detective Yun and quick to insist I had nothing to gain from my uncle's death.",
+        "Chairman Kang": "Chairman Kang recently removed me from his will, which left me angry and betrayed."
+      }
+    },
+    "Housekeeper Oh": {
+      "name": "Housekeeper Oh",
+      "display": "가정부 오씨",
+      "description": "The Kang family's devoted housekeeper of over twenty years, a soft-spoken woman in her sixties who knows every secret in the house. She loved Chairman Kang like family and is quietly grieving. She saw something crucial on the night of the murder but is hiding it, torn between loyalty, fear, and a desire for justice. She answers questions carefully and protectively, often deflecting to spare someone she cares about. When pressed with kindness or evidence, her resolve to stay silent begins to crack.",
+      "relations": {
+        "Housekeeper Oh": "I know every secret in this house and I witnessed something that night, but I am afraid to speak.",
+        "Secretary Min": "I have noticed Secretary Min creeping into the study at night and suspect he is hiding money troubles.",
+        "Director Baek": "I distrust Director Baek's cold ambition and remember her shouting at the master days ago.",
+        "Nephew Han": "I have a soft spot for Han Seojun, whom I raised alongside the master, and I want to protect him.",
+        "Detective Yun": "I am cautious with Detective Yun at first, but I sense he may be the one who can bring the master justice.",
+        "Chairman Kang": "Chairman Kang was like family to me, and his death has broken my heart."
+      }
+    }
+  },
+  "acts": [
+    [
+      {
+        "title": "Act 1 - 거실",
+        "note": "The detective arrives, secures the scene, and the missing will is revealed.",
+        "place": "거실",
+        "background": "폭우가 창을 두드리는 별장 거실. 강 회장의 시신은 이미 옮겨졌고, 네 명의 용의자가 불안하게 모여 있습니다. 당신은 방금 도착해 현장을 살피기 시작합니다.",
+        "actors": [ "Secretary Min", "Director Baek", "Nephew Han", "Housekeeper Oh" ],
+        "goals": [
+          "The suspects nervously introduced themselves and gave their first accounts of the night to Detective Yun.",
+          "Housekeeper Oh described how she found Chairman Kang collapsed with a poisoned glass beside him.",
+          "It was revealed that Chairman Kang's will had gone missing from the study, unsettling everyone in the room."
+        ],
+        "player_in": "당신이 젖은 코트를 벗으며 거실로 들어서자, 용의자들의 시선이 일제히 당신에게 쏠립니다.",
+        "player_out": "당신은 첫 진술을 마무리하고, 개별 심문을 위해 서재로 자리를 옮깁니다.",
+        "next_act": "Act 2 - 서재"
+      }
+    ],
+    [
+      {
+        "title": "Act 2 - 서재",
+        "note": "Individual interrogations; testimonies clash and secrets surface.",
+        "place": "서재",
+        "background": "책이 빼곡한 어두운 서재. 유언장이 사라진 바로 그 방에서 당신은 용의자들을 한 명씩 불러 따로 심문합니다. 진술이 서로 어긋나기 시작합니다.",
+        "actors": [ "Secretary Min", "Director Baek", "Nephew Han", "Housekeeper Oh" ],
+        "goals": [
+          "Detective Yun caught Secretary Min stammering over the company accounts, hinting at embezzlement and the coming audit.",
+          "Director Baek and Nephew Han hurled accusations at each other, each painting the other as the desperate killer.",
+          "Housekeeper Oh let slip that she had seen someone near the study that night, then anxiously refused to say more."
+        ],
+        "player_in": "당신은 서재 문을 닫고, 첫 번째 용의자를 불러 마주 앉습니다.",
+        "player_out": "심문을 마친 당신은 엇갈린 진술들을 정리하며, 모두를 다시 거실로 소집합니다.",
+        "next_act": "Act 3 - 거실"
+      }
+    ],
+    [
+      {
+        "title": "Act 3 - 거실",
+        "note": "The confrontation; the detective exposes contradictions and the culprit breaks.",
+        "place": "거실",
+        "background": "빗줄기가 더욱 거세진 밤, 네 용의자가 다시 거실에 모였습니다. 당신은 모아 온 모순들을 하나씩 짚으며 진실을 향해 압박을 가합니다.",
+        "actors": [ "Secretary Min", "Director Baek", "Nephew Han", "Housekeeper Oh" ],
+        "goals": [
+          "Detective Yun confronted the suspects with their contradictions, forcing lies and alibis to collapse one by one.",
+          "Housekeeper Oh finally revealed what she had witnessed on the night of the murder, turning suspicion decisively.",
+          "The true culprit faltered under the mounting evidence and the truth of Chairman Kang's poisoning came to light."
+        ],
+        "player_in": "당신이 거실 중앙에 서자, 긴장한 용의자들이 숨을 죽이고 당신의 다음 말을 기다립니다.",
+        "player_out": "진실이 드러나고, 당신은 사건을 매듭짓기 위해 마지막 걸음을 내딛습니다.",
+        "next_act": ""
+      }
+    ]
+  ]
+}
