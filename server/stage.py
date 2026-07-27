@@ -8,6 +8,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from .actor import GenerativeActor
 from .director import GenerativeDirector
 from .prompter import Prompter
+from . import display
 import datetime
 
 
@@ -52,7 +53,7 @@ class GenerativeStage:
         self.act_no = -1
         for actor_name, actor_info in self.script.actors.items():
             new_actor = GenerativeActor(
-                prompter=Prompter(guidance, default_llm=self.default_llm), 
+                prompter=Prompter(guidance, default_llm=self.default_llm, silent=True), 
                 name=actor_name,
                 embeddings_model=OpenAIEmbeddings(),
             )
@@ -67,7 +68,7 @@ class GenerativeStage:
             for subact in act:
                 title = subact["title"]
                 new_director = GenerativeDirector(
-                    prompter=Prompter(guidance, default_llm=self.default_llm),
+                    prompter=Prompter(guidance, default_llm=self.default_llm, silent=True),
                     background=subact["background"],
                     act_goals=subact["goals"]
                 )
@@ -163,7 +164,7 @@ class GenerativeStage:
             if next_script["role"] in director.players:
                 director.interrupted = True
             else:
-                print(f"{next_script['role']}: {next_script['content']}")
+                print(display.format_dialogue(next_script["role"], next_script["content"]))
                 director.add_dialogue_log(next_script)
             director.check_and_update_goal()
             act_status[act_name] = {

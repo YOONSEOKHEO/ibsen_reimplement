@@ -83,7 +83,7 @@ class Prompter:
         self, characters: str, descriptions: str, relations: str, background: str, 
         impressions: str, act_goal: str, memories: str, dialogue_history: List[Dict[str, str]]
     ):
-        prompt = self.guidance(PROMPT_DIRECTOR_OUTLINE)
+        prompt = self.guidance(PROMPT_DIRECTOR_OUTLINE, silent=self.silent)
         history_str = parse_history_to_str(dialogue_history)
         result = prompt(
             characters=characters, descriptions=descriptions, relations=relations, background=background,
@@ -100,7 +100,7 @@ class Prompter:
         self, characters: str, relations: str, background: str, act_outline: str, 
         prev_outline: str, num_lines: int
     ) -> List[Dict[str, str]]:
-        prompt = self.guidance(PROMPT_DIRECTOR_SCRIPT)
+        prompt = self.guidance(PROMPT_DIRECTOR_SCRIPT, silent=self.silent)
         result = prompt(
             num_lines=str(num_lines), characters=characters, relations=relations, background=background,
             act_outline=act_outline, prev_outline=prev_outline
@@ -116,7 +116,7 @@ class Prompter:
         self, characters: str, relations: str, background: str, act_goal: str,
         dialogue_history: List[Dict[str, str]], actor_name: str, description: str, content: str
     ) -> str:
-        prompt = self.guidance(PROMPT_DIRECTOR_INSTRUCT)
+        prompt = self.guidance(PROMPT_DIRECTOR_INSTRUCT, silent=self.silent)
         history_str = parse_history_to_str(dialogue_history)
         result = prompt(
             characters=characters, relations=relations, background=background, act_goal=act_goal, 
@@ -128,7 +128,7 @@ class Prompter:
     def get_goal_check(
         self, characters: str, background: str, act_goal: str, dialogue_history: List[Dict[str, str]]
     ) -> bool:
-        prompt = self.guidance(PROMPT_DIRECTOR_CHECK_GOAL)
+        prompt = self.guidance(PROMPT_DIRECTOR_CHECK_GOAL, silent=self.silent)
         history_str = parse_history_to_str(dialogue_history)
         result = prompt(
             characters=characters, background=background, act_goal=act_goal, dialogue_history=history_str

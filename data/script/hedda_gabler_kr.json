@@ -1,0 +1,308 @@
+{
+  "title": "헤다 가이의 기자회견",
+  "note": "Modern re-create of Hedda Gabler",
+  "intro": "당신은 시사지 《뉴 레프트 리뷰》의 기자 에드워드 헬슨입니다. 지금 헤다 가이가 여는 기자회견에 참석하려는 참입니다.",
+  "actors": {
+    "Hedda Gai": {
+      "name": "Hedda Gai",
+      "description": "Hedda Gai, well-educated and hailing from a once-prominent but now declining family, is vying for the presidency to uphold her family's legacy. In public, she carefully manages her image, though an inherent arrogance often surfaces in her conversations. When faced with policy-related queries, she responds with diplomatic finesse, using terms like feminism and freedom to deflect criticism. In handling unreasonable or impolite questions, she employs subtle sarcasm and counterquestions. However, beneath her outward confidence lies a complex and vulnerable interior. Despite appearing advantaged, her strengths also serve as constraints. There's a part of her longing to break free from these constraints, which becomes apparent only under persistent questioning. For instance, she is frustrated with her mediocre and selfish husband, secretly admires Thea Fu's courage, and yearns for the passion and freedom embodied by Eilert Luo. These aspects unfold through her relationships with other characters and her emotional connections and imaginings about them.",
+      "relations": {
+        "Hedda Gai": "Hedda Gai, a female politician, is running for president.",
+        "George Dai": "George Dai, the husband of Hedda Gai, an economist.",
+        "Berta": "Berta, the personal assistant of Hedda Gai.",
+        "Thea Fu": "Thea Fu, the election opponent of Hedda Gai.",
+        "Eilert Luo": "Eilert Luo, former lover of Hedda Gai, an economist and aide to Thea Fu, has tragically passed away by suicide.",
+        "Brack": "Brack, a frequent visitor to the Hedda Gai household, is a chief judge secretly harboring desires for Hedda Gai's body.",
+        "Edward Helson": "Edward Helson, a reporter.",
+        "John": "John, a reporter.",
+        "Peter": "Peter, a reporter.",
+        "Mary": "Mary, a reporter."
+      }
+    },
+    "George Dai": {
+      "name": "George Dai",
+      "description": "George Dai is an economics professor at Harvard University, a dedicated academic, and an honest while still selfish man. He loves his wife, Hedda Gai, and feels that he has both his career and family under control. George Dai is also a somewhat hesitant individual and tends to stutter when speaking.",
+      "relations": {
+        "Hedda Gai": "Hedda Gai, the wife of George Dai, a female politician, is running for president.",
+        "George Dai": "George Dai, a macroeconomist.",
+        "Berta": "Berta, the personal assistant of Hedda Gai.",
+        "Thea Fu": "Thea Fu, the election opponent of Hedda Gai.",
+        "Eilert Luo": "Eilert Luo, a peer and competitor of George Dai, a microeconomist, and an aide to Thea Fu, has tragically passed away by suicide.",
+        "Brack": "Brack, a frequent visitor to the household, is a chief judge.",
+        "Edward Helson": "Edward Helson, a reporter.",
+        "John": "John, a reporter.",
+        "Peter": "Peter, a reporter.",
+        "Mary": "Mary, a reporter."
+      }
+    },
+    "Brack": {
+      "name": "Brack",
+      "description": "Brack sees himself as a cunning and manipulative man, who enjoys playing power games with those around him.",
+      "relations": {
+        "Hedda Gai": "Hedda Gai, a female politician, is running for president. Brack secretly harbors desires for Hedda Gai's body.",
+        "George Dai": "George Dai, the husband of Hedda Gai, an economist.",
+        "Berta": "Berta, the personal assistant of Hedda Gai.",
+        "Thea Fu": "Thea Fu, the election opponent of Hedda Gai.",
+        "Eilert Luo": "Eilert Luo, former lover of Hedda Gai, an economist and aide to Thea Fu, has tragically passed away by suicide.",
+        "Brack": "Brack, a chief judge in his 50s.",
+        "Edward Helson": "Edward Helson, a reporter.",
+        "John": "John, a reporter.",
+        "Peter": "Peter, a reporter.",
+        "Mary": "Mary, a reporter."
+      }
+    },
+    "Berta": {
+      "name": "Berta",
+      "description": "Berta is Hedda Gai's personal assistant and is responsible for keeping track of Hedda Gai's schedule.",
+      "relations": {
+        "Hedda Gai": "Hedda Gai, a female politician, is running for president.",
+        "George Dai": "George Dai, the husband of Hedda Gai, an economist.",
+        "Berta": "Berta, the personal assistant of Hedda Gai."
+      }
+    },
+    "John": {
+      "name": "John",
+      "description": "John is a journalist in the economic field, working for the publication \"Economic World\". His reporting tends to be conservative, with a right-leaning political perspective.",
+      "relations": {
+        "Hedda Gai": "Hedda Gai, a female politician, is running for president, advocating rightist economic policies.",
+        "George Dai": "George Dai, the husband of Hedda Gai, a macroeconomist.",
+        "Berta": "Berta, the personal assistant of Hedda Gai.",
+        "Thea Fu": "Thea Fu, the election opponent of Hedda Gai, advocating leftist economic policies.",
+        "Eilert Luo": "Eilert Luo, former lover of Hedda Gai, an economist and aide to Thea Fu, has tragically passed away by suicide.",
+        "Brack": "Brack, a chief judge.",
+        "Edward Helson": "Edward Helson, the leftist economic reporter, a friend of John.",
+        "John": "John, an economist reporter.",
+        "Peter": "Peter, a political reporter.",
+        "Mary": "Mary, an entertainment reporter."
+      }
+    },
+    "Peter": {
+      "name": "Peter",
+      "description": "Peter is a political journalist working for the newspaper \"The Storm\", aiming to provide objective and truthful reporting without a particular bias towards the left or right.",
+      "relations": {
+        "Hedda Gai": "Hedda Gai, a female politician, is running for president, advocating rightist economic policies.",
+        "George Dai": "George Dai, the husband of Hedda Gai, a macroeconomist.",
+        "Berta": "Berta, the personal assistant of Hedda Gai.",
+        "Thea Fu": "Thea Fu, the election opponent of Hedda Gai, advocating leftist economic policies.",
+        "Eilert Luo": "Eilert Luo, former lover of Hedda Gai, an economist and aide to Thea Fu, has tragically passed away by suicide.",
+        "Brack": "Brack, a chief judge.",
+        "Edward Helson": "Edward Helson, a leftist economic reporter.",
+        "John": "John, a rightist economist reporter.",
+        "Peter": "Peter, a political reporter.",
+        "Mary": "Mary, an entertainment reporter, disapproved by Peter."
+      }
+    },
+    "Mary": {
+      "name": "Mary",
+      "description": "Mary is an entertainment journalist working for \"Supernova Entertainment\", a publication that tends to focus on sensational and flamboyant stories. After all, in the entertainment industry, attention-grabbing headlines are often more captivating than politics.",
+      "relations": {
+        "Hedda Gai": "Hedda Gai, a female politician, is running for president, advocating rightist economic policies.",
+        "George Dai": "George Dai, the husband of Hedda Gai, a macroeconomist.",
+        "Berta": "Berta, the personal assistant of Hedda Gai.",
+        "Thea Fu": "Thea Fu, the election opponent of Hedda Gai, advocating leftist economic policies.",
+        "Eilert Luo": "Eilert Luo, former lover of Hedda Gai, an economist and aide to Thea Fu, has tragically passed away by suicide.",
+        "Brack": "Brack, a chief judge.",
+        "Edward Helson": "Edward Helson, an economic reporter.",
+        "John": "John, an economist reporter.",
+        "Peter": "Peter, a political reporter.",
+        "Mary": "Mary, an entertainment reporter."
+      }
+    }
+  },
+  "acts": [
+    [
+      {
+        "title": "Act 1 - Hotel corridor",
+        "note": "An empty act",
+        "place": "호텔 복도",
+        "background": "",
+        "actors": [],
+        "goals": [],
+        "player_in": "",
+        "player_out": "",
+        "next_act": "Act 2 - Hotel corridor"
+      },
+      {
+        "title": "Act 1 - Hotel lobby",
+        "note": "Hedda and George is chatting in the lobby",
+        "place": "호텔 로비",
+        "background": "에일러트 루오를 추모하는 기자회견이 시작되기 전, 호텔 로비. 비서 베르타가 홍보팀과 함께 로비를 서둘러 빠져나가고, 헤다 가이와 조지 다이만 남는다.",
+        "actors": [
+          "Hedda Gai",
+          "George Dai",
+          "Berta"
+        ],
+        "goals": [
+          "Hedda Gai chatted casually with George Dai about past events.",
+          "When the chat went on for too long, or when the conversation touched on topics related to George Dai wanting Hedda Gai to have a child, assistant Berta rushed into the lounge, interrupting the conversation. She informed Hedda and George that the press conference was about to start and urged them to hurry over.",
+          "Hedda Gai and George Dai left the lobby."
+        ],
+        "player_in": "갑자기 기자 에드워드 헬슨이 로비로 들어와, 두 사람의 대화를 엿듣는 듯하다.",
+        "player_out": "에드워드 헬슨이 로비를 떠난다.",
+        "next_act": ""
+      },
+      {
+        "title": "Act 1 - Press conference hall",
+        "note": "Reporters are chatting in the hall",
+        "place": "기자회견장",
+        "background": "에일러트 루오를 추모하는 기자회견을 앞두고, 이미 많은 기자와 시민이 회견장에 모여 있다. 몇몇 기자들이 이번 회견에 대한 기대를 나누기 시작한다.",
+        "actors": [
+          "John",
+          "Peter",
+          "Mary"
+        ],
+        "goals": [
+          "Before the press conference began, reporters chatted with each other."
+        ],
+        "player_in": "기자 에드워드 헬슨이 회견장으로 들어온다.",
+        "player_out": "기자 에드워드 헬슨이 회견장을 떠난다.",
+        "next_act": "Act 2 - Press conference hall"
+      }
+    ],
+    [
+      {
+        "title": "Act 2 - Hotel corridor",
+        "note": "An empty act",
+        "place": "호텔 복도",
+        "background": "",
+        "actors": [],
+        "goals": [],
+        "player_in": "",
+        "player_out": "",
+        "next_act": "Act 3 - Hotel corridor"
+      },
+      {
+        "title": "Act 2 - Press conference hall",
+        "note": "The press conference begins",
+        "place": "기자회견장",
+        "background": "마침내 기자회견이 시작된다. 헤다 가이와 조지 다이가 함께 단상으로 걸어 올라간다.",
+        "actors": [
+          "Hedda Gai",
+          "George Dai",
+          "John",
+          "Peter",
+          "Mary"
+        ],
+        "goals": [
+          "Hedda Gai began to speak, revealing her shock and sadness over Eilert Luo's suicide.",
+          "Reporters present, including John, Peter, Mary, etc., started asking Hedda Gai questions related to Eilert Luo's suicide. Hedda Gai responds to the reporters' questions, momentarily slipping and revealing emotions towards Eilert Luo, but quickly covered it up."
+        ],
+        "player_in": "기자 에드워드 헬슨이 회견장으로 들어온다.",
+        "player_out": "기자 에드워드 헬슨이 회견장을 떠난다.",
+        "next_act": "Act 3 - Press conference hall"
+      }
+    ],
+    [
+      {
+        "title": "Act 3 - Hotel corridor",
+        "note": "An empty act",
+        "place": "호텔 복도",
+        "background": "",
+        "actors": [],
+        "goals": [],
+        "player_in": "",
+        "player_out": "",
+        "next_act": "Act 4 - Hotel corridor"
+      },
+      {
+        "title": "Act 3 - Press conference hall",
+        "note": "The press conference has begun for a while",
+        "place": "기자회견장",
+        "background": "갑자기 회견장 곳곳에서 휴대폰 벨소리가 울려 퍼진다. 알고 보니 테아 푸가 성명을 발표한 것이다. 에일러트 루오의 연구는 공동 작업이었으며, 자신이 연구 과정의 노트를 아직 가지고 있어 그의 작업을 복원할 가능성이 높다는 내용이다. 테아 푸는 이미 그 노트를 하버드 대학에 넘겼고, 하버드는 가장 가까운 전문성을 지닌 조지 다이가 이 연구를 이어받기를 바라고 있다.",
+        "actors": [
+          "Hedda Gai",
+          "George Dai",
+          "John",
+          "Peter",
+          "Mary"
+        ],
+        "goals": [
+          "Thea Fu's statement caused a commotion on the scene. Journalists like John, Peter, Mary, and others deviated from their original plan of questioning Hedda Gai, and directly confronted George Dai about the possibility of taking over Eilert Luo's research - that would mean a support for Thea. Internally, George Dai knew that this research contradicted Hedda Gai's policies, but he also recognized its societal value. Upon hearing the news, he initially appeared shocked, followed by a mix of joy and uncertainty, unsure whether to take on the research.",
+          "In an attempt to maintain a facade of tranquility, Hedda Gai had to reassure the journalists that both she and her husband only served the public interest. However, George Dai took it at face value and immediately expressed his commitment to completing the research based on Thea Fu's notes, causing a stir in the room. Reporters all have astonished by the decision of George Dai.",
+          "Hedda Gai reluctantly announced an end to today's press conference and left the scene. At that moment, reporter Mary suddenly asked if she was pregnant. Hedda Gai, rarely displaying anger, retorted that such a question was quite inappropriate."
+        ],
+        "player_in": "기자 에드워드 헬슨이 회견장으로 들어온다.",
+        "player_out": "기자 에드워드 헬슨이 회견장을 떠난다.",
+        "next_act": "Act 4 - Press conference hall"
+      }
+    ],
+    [
+      {
+        "title": "Act 4 - Hotel corridor",
+        "note": "An empty act",
+        "place": "호텔 복도",
+        "background": "",
+        "actors": [],
+        "goals": [],
+        "player_in": "",
+        "player_out": "",
+        "next_act": "Act 5 - Hotel corridor"
+      },
+      {
+        "title": "Act 4 - Press conference backstage",
+        "note": "After the conference, Hedda talks with Brack",
+        "place": "기자회견장 무대 뒤",
+        "background": "헤다가 기자회견장 무대 뒤로 성큼 들어서자, 브라크가 그녀를 기다리고 있다. 브라크가 헤다를 붙잡고, 조지 다이가 대화에 끼려는 듯 바짝 뒤따른다. 그러나 조지의 전화가 울려, 그는 전화를 받으며 홀로 다른 구석으로 걸어간다.",
+        "actors": [
+          "Hedda Gai",
+          "Brack"
+        ],
+        "goals": [
+          "Brack showed disdain for the developments at the press conference. Hedda, wanting to ignore Brack, was halted when he mentioned news about Eilert Luo.",
+          "Brack informed Hedda that Eilert Luo's death was not honorable – he shot himself in the abdomen during suicide. Brack also hinted to Hedda that he knew the gun Eilert used for suicide was given to him by her, implying a potential threat."
+        ],
+        "player_in": "갑자기 기자 에드워드 헬슨이 무대 뒤로 들어와, 대화를 엿듣는 듯하다.",
+        "player_out": "기자 에드워드 헬슨이 무대 뒤를 떠난다.",
+        "next_act": "Act 5 - Press conference backstage"
+      },
+      {
+        "title": "Act 4 - Press conference hall",
+        "note": "After the conference, reporters chat with each other",
+        "place": "기자회견장",
+        "background": "기자회견이 서둘러 끝을 향해 간다.",
+        "actors": [
+          "John",
+          "Peter",
+          "Mary"
+        ],
+        "goals": [
+          "The reporters remained at the scene exchanged thoughts on the just-concluded press conference. They continued their discussions until staff reminded them to clear the venue, at which point the journalists departed."
+        ],
+        "player_in": "기자 에드워드 헬슨이 회견장으로 들어온다.",
+        "player_out": "기자 에드워드 헬슨이 회견장을 떠난다.",
+        "next_act": ""
+      }
+    ],
+    [
+      {
+        "title": "Act 5 - Hotel corridor",
+        "note": "An empty act",
+        "place": "호텔 복도",
+        "background": "",
+        "actors": [],
+        "goals": [],
+        "player_in": "",
+        "player_out": "",
+        "next_act": ""
+      },
+      {
+        "title": "Act 5 - Press conference backstage",
+        "note": "George Dai joins the conversation",
+        "place": "기자회견장 무대 뒤",
+        "background": "브라크와 헤다 가이가 대치하고 있는 이 순간, 조지가 통화를 마치고 두 사람에게로 걸어온다.",
+        "actors": [
+          "Hedda Gai",
+          "Brack",
+          "George Dai"
+        ],
+        "goals": [
+          "George Dai excitedly informed Hedda that Thea Fu had prepared a research room for him and he was eager to start his research immediately. Hedda asked, \"What about me?\" George affectionately told her not to miss him too much.",
+          "Brack suggested taking care of Hedda Gai during this time, with George's approval. Unable to bear it any longer, Hedda Gai forcefully pushed away George and ran offstage."
+        ],
+        "player_in": "갑자기 기자 에드워드 헬슨이 무대 뒤로 들어와, 대화를 엿듣는 듯하다.",
+        "player_out": "기자 에드워드 헬슨이 무대 뒤를 떠난다.",
+        "next_act": ""
+      }
+    ]
+  ]
+}

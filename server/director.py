@@ -4,6 +4,7 @@ from typing import Deque, Dict, List
 from .actor import GenerativeActor
 from .prompter import Prompter
 from .utils import DialogueLogger, parse_document_to_str
+from . import display
 
 
 class GenerativeDirector:
@@ -128,7 +129,8 @@ class GenerativeDirector:
         if not self.completed:
             if self.interrupted or len(self.current_scripts) == 0:
                 new_scripts = self.generate_new_script(lines=5)
-                print(new_scripts)
+                if display.DEBUG:
+                    print(new_scripts)
                 self.current_scripts = deque(new_scripts)
 
                 if len(self.current_scripts) == 0:

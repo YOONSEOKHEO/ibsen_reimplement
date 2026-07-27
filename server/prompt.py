@@ -219,6 +219,8 @@ You should output the script continuation in JSON format. Each line of the scrip
 ```
 {"scripts": [{"role": "Speaker 1", "content": "..."}, {"role": "Speaker 2", "content": "..."}, {"role": "Narration", "content": "..."}, ...]}
 ```
+
+**Language requirement: Write every "content" value in natural, fluent Korean (한국어), including Narration. Keep the JSON keys and each "role" exactly as the original English character name (or "Narration").**
 {{~/system}}
 
 {{#user~}}
@@ -317,6 +319,8 @@ Based on the information above, I will tell you the script that has unfolded so 
 Do not role-play other characters; generate only what your character would say. Avoid multi-turn responses; generate only the next line. Do not repeat the existing script. You can output only one line of text.
 
 A director will guide you on how to better embody your role. Consider the context, director's guidance, your character's image, memories, and impressions on others to generate the most fitting line of dialogue as an actor.
+
+**Language requirement: Always write {{name}}'s line in natural, fluent Korean (한국어), no matter what language the context, memories, or instructions are in. Output only the spoken line, in Korean.**
 {{~/system}}
 """
 
